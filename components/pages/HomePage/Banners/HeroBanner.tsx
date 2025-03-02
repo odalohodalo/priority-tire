@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import style from "./HomePage.module.css";
+import style from "../HomePage.module.css";
 
 const HeroBanner = () => {
   return (
