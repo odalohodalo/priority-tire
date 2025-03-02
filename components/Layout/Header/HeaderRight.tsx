@@ -3,9 +3,15 @@ import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 
-const HeaderRight = () => {
+import style from "./Header.module.css";
+
+type HeaderRightProps = {
+  isMobile: boolean;
+};
+
+const HeaderRight = ({ isMobile }: HeaderRightProps) => {
   return (
-    <div>
+    <div className={style.headerRight}>
       <IconButton
         size="large"
         aria-label="account of current user"
@@ -13,9 +19,12 @@ const HeaderRight = () => {
       >
         <PersonOutlinedIcon />
       </IconButton>
-      <IconButton size="large" aria-label="show favorite" color="inherit">
-        <FavoriteBorderIcon />
-      </IconButton>
+      {!isMobile && (
+        <IconButton size="large" aria-label="show favorite" color="inherit">
+          <FavoriteBorderIcon />
+        </IconButton>
+      )}
+
       <IconButton size="large" aria-label="shopping cart" color="inherit">
         <ShoppingCartOutlinedIcon />
       </IconButton>
