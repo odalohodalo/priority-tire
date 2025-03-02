@@ -14,6 +14,8 @@ const SearchInput = () => {
     marginRight: theme.spacing(2),
     marginLeft: 0,
     width: "100%",
+    minWidth: "500px",
+    maxWidth: "100%",
     [theme.breakpoints.up("sm")]: {
       marginLeft: theme.spacing(3),
       width: "auto",
@@ -37,6 +39,7 @@ const SearchInput = () => {
       paddingLeft: `calc(1em + ${theme.spacing(4)})`,
       transition: theme.transitions.create("width"),
       width: "100%",
+      minWidth: "500px",
       [theme.breakpoints.up("md")]: {
         width: "20ch",
       },
