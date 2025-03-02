@@ -1,0 +1,7 @@
+.heroBannerContainer {
+  position: relative;
+  width: 100%;
+  max-height: 300px;
+  height: 30vh;
+  overflow: hidden;
+}

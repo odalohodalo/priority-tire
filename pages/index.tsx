@@ -1,3 +1,5 @@
+import HomePage from "@/components/pages/HomePage/HomePage";
+
 export default function Home() {
-  return <section>Priority Tire</section>;
+  return <HomePage />;
 }
