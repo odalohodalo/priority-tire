@@ -1,13 +1,19 @@
-import { Box } from "@mui/material";
+import { REBATES_SLIDER_ITEMS } from "@/lib/constants/rebatesSliderItems";
+
 import RebatesSliderItem from "./RebatesSliderItem";
+import Carousel from "@/components/common/Carousel";
+
+import style from "../HomePage.module.css";
 
 const RebatesSlider = () => {
   return (
-    <div>
+    <div className={style.rebatesSliderContainer}>
       <h1>Save with Rebates and Promotions</h1>
-      <Box sx={{ display: "flex", gap: 2 }}>
-        <RebatesSliderItem />
-      </Box>
+      <Carousel>
+        {REBATES_SLIDER_ITEMS.map((item) => (
+          <RebatesSliderItem key={item.id} item={item} />
+        ))}
+      </Carousel>
     </div>
   );
 };

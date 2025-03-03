@@ -5,3 +5,7 @@
   height: 30vh;
   overflow: hidden;
 }
+
+.rebatesSliderContainer {
+  padding: 0 24px;
+}
