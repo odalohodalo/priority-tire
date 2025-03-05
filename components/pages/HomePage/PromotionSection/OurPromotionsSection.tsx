@@ -5,7 +5,7 @@ import style from "../HomePage.module.css";
 const OurPromotionsSection = () => {
   return (
     <div>
-      <h1>Save Now With Our Promotions</h1>
+      <h1 className={style.ourPromotionsTitle}>Save Now With Our Promotions</h1>
       <div className={style.ourPromotionsContainer}>
         <Image
           src="/images/promotions/first_time_buyer.jpg"

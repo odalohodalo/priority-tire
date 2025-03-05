@@ -7,7 +7,9 @@
   margin-bottom: 16px;
 }
 
-.rebatesSliderContainer {
+.rebatesSliderContainer,
+.popularProductsContainer,
+.ourPromotionsTitle {
   padding: 0 24px;
 }
 
