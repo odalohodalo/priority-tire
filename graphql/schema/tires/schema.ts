@@ -32,6 +32,7 @@ const Tire = objectType({
     t.float("price");
     t.float("rating");
     t.int("stock");
+    t.string("image");
   },
 });
 

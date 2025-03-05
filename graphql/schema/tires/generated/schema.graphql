@@ -13,6 +13,7 @@ type Tire {
   brand: String
   countryOfOrigin: String
   id: Int
+  image: String
   loadIndex: Int
   loadRange: String
   model: String

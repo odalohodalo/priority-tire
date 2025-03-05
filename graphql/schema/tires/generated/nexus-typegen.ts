@@ -35,6 +35,7 @@ export interface NexusGenObjects {
     brand?: string | null; // String
     countryOfOrigin?: string | null; // String
     id?: number | null; // Int
+    image?: string | null; // String
     loadIndex?: number | null; // Int
     loadRange?: string | null; // String
     model?: string | null; // String
@@ -81,6 +82,7 @@ export interface NexusGenFieldTypes {
     brand: string | null; // String
     countryOfOrigin: string | null; // String
     id: number | null; // Int
+    image: string | null; // String
     loadIndex: number | null; // Int
     loadRange: string | null; // String
     model: string | null; // String
@@ -117,6 +119,7 @@ export interface NexusGenFieldTypeNames {
     brand: 'String'
     countryOfOrigin: 'String'
     id: 'Int'
+    image: 'String'
     loadIndex: 'Int'
     loadRange: 'String'
     model: 'String'

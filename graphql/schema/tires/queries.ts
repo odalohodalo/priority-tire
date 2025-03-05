@@ -30,6 +30,7 @@ export const GET_ALL_TIRES = gql`
       price
       rating
       stock
+      image
     }
   }
 `;
@@ -64,6 +65,7 @@ export const GET_TIRE_BY_ID = gql`
       price
       rating
       stock
+      image
     }
   }
 `;

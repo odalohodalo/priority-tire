@@ -26,7 +26,9 @@
       "approvedRimWidth": "5.5-7.5",
       "price": 180.99,
       "rating": 4.8,
-      "stock": 20
+      "stock": 20,
+      "image": "/images/products/tire1.jpg" 
+
     },
     {
       "id": 2,
@@ -55,7 +57,9 @@
       "approvedRimWidth": "6.0-8.0",
       "price": 210.5,
       "rating": 4.7,
-      "stock": 15
+      "stock": 15,
+      "image": "/images/products/tire2.jpg"
+
     },
     {
       "id": 3,
@@ -84,7 +88,9 @@
       "approvedRimWidth": "7.0-8.5",
       "price": 195.75,
       "rating": 4.6,
-      "stock": 10
+      "stock": 10,
+      "image": "/images/products/tire3.jpg"
+
     },
     {
       "id": 4,
@@ -113,7 +119,9 @@
       "approvedRimWidth": "8.0-9.5",
       "price": 220.0,
       "rating": 4.9,
-      "stock": 25
+      "stock": 25,
+      "image": "/images/products/tire4.jpg"
+
     },
     {
       "id": 5,
@@ -142,7 +150,9 @@
       "approvedRimWidth": "5.5-7.5",
       "price": 160.0,
       "rating": 4.5,
-      "stock": 30
+      "stock": 30,
+      "image": "/images/products/tire5.jpg"
+
     },
     {
       "id": 6,
@@ -171,7 +181,9 @@
       "approvedRimWidth": "6.0-8.0",
       "price": 175.0,
       "rating": 4.4,
-      "stock": 18
+      "stock": 18,
+      "image": "/images/products/tire6.jpg"
+
     },
     {
       "id": 7,
@@ -200,7 +212,9 @@
       "approvedRimWidth": "7.0-8.5",
       "price": 140.0,
       "rating": 4.3,
-      "stock": 22
+      "stock": 22,
+      "image": "/images/products/tire7.jpg"
+
     },
     {
       "id": 8,
@@ -229,7 +243,8 @@
       "approvedRimWidth": "8.0-9.5",
       "price": 190.0,
       "rating": 4.2,
-      "stock": 12
+      "stock": 12,
+      "image": "/images/products/tire8.jpg"
     },
     {
       "id": 9,
@@ -258,7 +273,9 @@
       "approvedRimWidth": "5.5-7.5",
       "price": 155.0,
       "rating": 4.1,
-      "stock": 14
+      "stock": 14,
+      "image": "/images/products/tire9.jpg"
+
     },
     {
       "id": 10,
@@ -287,6 +304,8 @@
       "approvedRimWidth": "6.0-8.0",
       "price": 165.0,
       "rating": 4.0,
-      "stock": 16
+      "stock": 16,
+      "image": "/images/products/tire10.jpg"
+
     }
   ]
