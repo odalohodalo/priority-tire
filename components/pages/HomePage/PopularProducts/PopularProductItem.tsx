@@ -1,4 +1,7 @@
+import { useRouter } from "next/router";
+
 import CardComponent from "@/components/common/CardComponent";
+
 import { Tire } from "@/types/tiresTypes";
 
 type PopularProductItemProps = {
@@ -6,14 +9,22 @@ type PopularProductItemProps = {
 };
 
 const PopularProductItem = ({ tire }: PopularProductItemProps) => {
+  const router = useRouter();
+
+  const handleCardClick = () => {
+    router.push(`/tires/${tire.id}`);
+  };
+
   return (
-    <CardComponent
-      id={tire.id}
-      image={tire.image}
-      title={`${tire.brand} ${tire.size}`}
-      description={`${tire.price}$`}
-      height="220"
-    />
+    <div onClick={handleCardClick}>
+      <CardComponent
+        id={tire.id}
+        image={tire.image}
+        title={`${tire.brand} ${tire.size}`}
+        description={`${tire.price}$`}
+        height="220"
+      />
+    </div>
   );
 };
 
