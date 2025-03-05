@@ -1,4 +1,18 @@
 .productPageContainer {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
   padding: 64px 40px;
+}
+
+.productPageContainer > div {
+  max-width: 430px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .productPageContainer {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
 }
