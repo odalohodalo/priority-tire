@@ -1,11 +1,19 @@
 import HeroBanner from "./Banners/HeroBanner";
+import PopularProducts from "./PopularProducts/PopularProducts";
 import PromotionSection from "./PromotionSection/PromotionSection";
 
-const HomePage = () => {
+import { Tire } from "@/types/tiresTypes";
+
+type HomePageProps = {
+  tires: Tire[];
+};
+
+const HomePage = ({ tires }: HomePageProps) => {
   return (
     <section>
       <HeroBanner />
       <PromotionSection />
+      <PopularProducts tires={tires} />
     </section>
   );
 };
